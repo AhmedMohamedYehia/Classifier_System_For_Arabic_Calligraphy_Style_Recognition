@@ -1,7 +1,7 @@
 # Classifier_System_For_Arabic_Calligraphy_Style_Recognition
+The project is built for educational purposes, to learn how to apply feature engineering techniques, so it may include trivial solutions and trying brute force on classification algorithms to learn how each model deals with data differently
 
-<p> The project is built for educational purposes, to learn how to apply feature engineering techniques, so it may include trivial solutions and trying brute force on classification algorithms to learn how each model deals with data differently</p>
-<p> <ol>
+<ol>
   <li><h2>Preprocessing:</h2> At first I made image processing for the entered photo as I chose sauviola as it helps us to get good quality for the binarized photo as I compared between otsu and sauviola and ni black and the best binarization we get is sauviola.</li>
     
   <li><h2>Feature extraction:</h2> Then I enter the preprocessed data into LPQ(local phase Quantization) Feature extraction which is statistical feature extraction and I found that it gets the frequencies components in specific directions instead of getting all frequencies. </li>
